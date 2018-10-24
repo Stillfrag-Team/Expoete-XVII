@@ -10,7 +10,7 @@ public class DebugController : MonoBehaviour {
 
     void Update ()
     {
-        if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.D))
         {
             debugIsActive = !debugIsActive;
         }
